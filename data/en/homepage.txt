@@ -94,31 +94,27 @@ skill:
 service:
   enable : true
   title : "SERVICES"
-  service_list:
+  service_list:  
+    # service item loop
+    - name : "Data Science"
+      image : "https://krishnamita.netlify.app/images/icons/data-science.png"
+   
     # service item loop
     - name : "Web Development"
-      image : "images/icons/web-development.png"
-      
-    # service item loop
-    - name : "Graphic Design"
-      image : "images/icons/graphic-design.png"
-      
+      image : "images/icons/web-development.png"  
+
     # service item loop
     - name : "Database Management"
       image : "images/icons/dbms.png"
       
     # service item loop
-    - name : "Software Development"
-      image : "images/icons/software-development.png"
-      
-    # service item loop
-    - name : "Digital Marketing"
-      image : "images/icons/marketing.png"
-      
-    # service item loop
     - name : "Mobile App Development"
-      image : "images/icons/mobile-app.png"
-
+      image : "https://krishnamita.netlify.app/images/icons/mobile-app.png"
+      
+    # service item loop
+    - name : "Big Data Analytics"
+      image : "https://krishnamita.netlify.app/images/icons/big-data.png"
+      
 
 ############################## call to action #########################
 call_to_action:
